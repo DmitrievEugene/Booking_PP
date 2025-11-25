@@ -1,0 +1,207 @@
+[
+  {
+    "ContainingType": "Booking_PP.Controllers.HomeController",
+    "Method": "Index",
+    "RelativePath": "",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Booking_PP.Controllers.HomeController",
+    "Method": "Index",
+    "RelativePath": "{controller}/{Index}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "Index",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Booking_PP.Controllers.AdminController",
+    "Method": "CreateRoom",
+    "RelativePath": "Admin/CreateRoom",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Booking_PP.Controllers.AdminController",
+    "Method": "CreateRoom",
+    "RelativePath": "Admin/CreateRoom",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "NumberRoom",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "PriceRoom",
+        "Type": "System.Nullable\u00601[[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "DescriptionRoom",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsFree",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserID",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.ID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.UserFirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.UserSecondName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.UserPhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "User.Rooms",
+        "Type": "System.Collections.Generic.List\u00601[[Booking_PP.Models.Room, Booking_PP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "stringPriceRoom",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Booking_PP.Controllers.AdminController",
+    "Method": "TableOfRooms",
+    "RelativePath": "Admin/TableOfRooms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Booking_PP.Controllers.AdminController",
+    "Method": "TableOfRooms",
+    "RelativePath": "Admin/TableOfRooms",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Booking_PP.Controllers.UserController",
+    "Method": "Booking",
+    "RelativePath": "User/Booking",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Booking_PP.Controllers.UserController",
+    "Method": "Booking",
+    "RelativePath": "User/Booking",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserFirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserSecondName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserPhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Rooms",
+        "Type": "System.Collections.Generic.List\u00601[[Booking_PP.Models.Room, Booking_PP, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Booking_PP.Controllers.UserController",
+    "Method": "TableOfBooking",
+    "RelativePath": "User/TableOfBooking",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

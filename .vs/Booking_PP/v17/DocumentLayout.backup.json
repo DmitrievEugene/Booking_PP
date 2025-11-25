@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Machina\\source\\repos\\Booking_PP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\machina\\source\\repos\\booking_pp\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD7F8FB-10F6-40F4-BB1B-E9A9B4CD771F}|Booking_PP\\Booking_PP.csproj|c:\\users\\machina\\source\\repos\\booking_pp\\booking_pp\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DDD7F8FB-10F6-40F4-BB1B-E9A9B4CD771F}|Booking_PP\\Booking_PP.csproj|solutionrelative:booking_pp\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD7F8FB-10F6-40F4-BB1B-E9A9B4CD771F}|Booking_PP\\Booking_PP.csproj|c:\\users\\machina\\source\\repos\\booking_pp\\booking_pp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD7F8FB-10F6-40F4-BB1B-E9A9B4CD771F}|Booking_PP\\Booking_PP.csproj|solutionrelative:booking_pp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD7F8FB-10F6-40F4-BB1B-E9A9B4CD771F}|Booking_PP\\Booking_PP.csproj|c:\\users\\machina\\source\\repos\\booking_pp\\booking_pp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD7F8FB-10F6-40F4-BB1B-E9A9B4CD771F}|Booking_PP\\Booking_PP.csproj|solutionrelative:booking_pp\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD7F8FB-10F6-40F4-BB1B-E9A9B4CD771F}|Booking_PP\\Booking_PP.csproj|c:\\users\\machina\\source\\repos\\booking_pp\\booking_pp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD7F8FB-10F6-40F4-BB1B-E9A9B4CD771F}|Booking_PP\\Booking_PP.csproj|solutionrelative:booking_pp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD7F8FB-10F6-40F4-BB1B-E9A9B4CD771F}|Booking_PP\\Booking_PP.csproj|c:\\users\\machina\\source\\repos\\booking_pp\\booking_pp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD7F8FB-10F6-40F4-BB1B-E9A9B4CD771F}|Booking_PP\\Booking_PP.csproj|solutionrelative:booking_pp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD7F8FB-10F6-40F4-BB1B-E9A9B4CD771F}|Booking_PP\\Booking_PP.csproj|c:\\users\\machina\\source\\repos\\booking_pp\\booking_pp\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD7F8FB-10F6-40F4-BB1B-E9A9B4CD771F}|Booking_PP\\Booking_PP.csproj|solutionrelative:booking_pp\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDD7F8FB-10F6-40F4-BB1B-E9A9B4CD771F}|Booking_PP\\Booking_PP.csproj|c:\\users\\machina\\source\\repos\\booking_pp\\booking_pp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDD7F8FB-10F6-40F4-BB1B-E9A9B4CD771F}|Booking_PP\\Booking_PP.csproj|solutionrelative:booking_pp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Machina\\source\\repos\\Booking_PP\\Booking_PP\\Dockerfile",
+              "RelativeDocumentMoniker": "Booking_PP\\Dockerfile",
+              "ToolTip": "C:\\Users\\Machina\\source\\repos\\Booking_PP\\Booking_PP\\Dockerfile",
+              "RelativeToolTip": "Booking_PP\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-23T12:48:25.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\Machina\\source\\repos\\Booking_PP\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\Machina\\source\\repos\\Booking_PP\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-11-22T12:12:52.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Machina\\source\\repos\\Booking_PP\\Booking_PP\\Program.cs",
+              "RelativeDocumentMoniker": "Booking_PP\\Program.cs",
+              "ToolTip": "C:\\Users\\Machina\\source\\repos\\Booking_PP\\Booking_PP\\Program.cs",
+              "RelativeToolTip": "Booking_PP\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:26:16.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Machina\\source\\repos\\Booking_PP\\Booking_PP\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Booking_PP\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Machina\\source\\repos\\Booking_PP\\Booking_PP\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Booking_PP\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-16T16:30:11.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Machina\\source\\repos\\Booking_PP\\Booking_PP\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Booking_PP\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Machina\\source\\repos\\Booking_PP\\Booking_PP\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Booking_PP\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T13:26:32.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Machina\\source\\repos\\Booking_PP\\Booking_PP\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Booking_PP\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Machina\\source\\repos\\Booking_PP\\Booking_PP\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Booking_PP\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T13:26:58.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\Machina\\source\\repos\\Booking_PP\\Booking_PP\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "Booking_PP\\Models\\Room.cs",
+              "ToolTip": "C:\\Users\\Machina\\source\\repos\\Booking_PP\\Booking_PP\\Models\\Room.cs",
+              "RelativeToolTip": "Booking_PP\\Models\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T18:03:19.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Machina\\source\\repos\\Booking_PP\\Booking_PP\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Booking_PP\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Machina\\source\\repos\\Booking_PP\\Booking_PP\\Models\\User.cs",
+              "RelativeToolTip": "Booking_PP\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T19:43:41.086Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

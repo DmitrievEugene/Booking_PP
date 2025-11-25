@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form method="post">
+        <div>
+            <p>Добавление комнаты</p>
+            <p>
+                <label for="numberRoom">Введите номер комнаты:</label><br />
+                <input type="number" id="numberRoom" name="numberRoom" required />
+            </p>
+            <p>
+                <label for="stringPriceRoom">Введите цену:</label><br />
+                <input type="number" id="stringPriceRoom" name="stringPriceRoom" step="0.01" required />
+            </p>
+            <p>
+                <label for="descriptionRoom">Введите описание:</label><br />
+                <textarea id="descriptionRoom" name="descriptionRoom"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Создать" />
+            </p>
+        </div>
+    </form>
+</body>
+</html>

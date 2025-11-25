@@ -1,0 +1,57 @@
+﻿@using Booking_PP.Models
+@model List<Room>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <p>Таблица комнат</p>
+    <p><a href="/Home/Index">Назад</a></p>
+    <p><a href="CreateRoom">Добавить комнату</a></p>
+    <table>
+        <tr><td>Номер комнаты</td><td>Цена</td><td>Описание комнаты</td><td>Забронирован?</td></tr>
+        @foreach (var room in Model)
+        {
+            <tr>
+                <td>@room.NumberRoom</td>
+                <td>@room.PriceRoom</td>
+                <td><textarea readonly>@room.DescriptionRoom</textarea></td>
+                <td>
+                    <input type="checkbox" onclick="return false"
+                           @if (room.IsFree == false)
+                           {
+                               @: checked
+                           }
+     />
+                </td>
+                <td>
+                    <form method="post">
+                        <input type="hidden" value="@room.ID" name="id" />
+                        <input type="submit" value="Удалить" />
+                    </form>
+                </td>
+            </tr>
+        }
+    </table>
+    <br />
+    <br />
+    <p>Забронированые комнаты</p>
+    <table>
+        <tr><td>Номер комнаты</td><td>Цена</td><td>Забронировал</td><td>Номер телефона</td></tr>
+        @foreach (var room in Model)
+        {
+            if (@room.IsFree == false)
+            {
+                <tr>
+                    <td>@room.NumberRoom</td>
+                    <td>@room.PriceRoom</td>
+                    <td>@room?.User?.UserFirstName @room?.User?.UserSecondName</td>
+                    <td>@room?.User?.UserPhoneNumber</td>
+                </tr>
+            }
+        }
+    </table>
+</body>
+</html>

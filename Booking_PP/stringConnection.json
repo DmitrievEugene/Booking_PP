@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "Connection": "Host=db;Database=BD_Booking_PP;Username=postgres;Password=3115"
+  }
+}

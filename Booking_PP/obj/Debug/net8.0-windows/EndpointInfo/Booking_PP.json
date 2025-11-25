@@ -1,0 +1,375 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "Booking_PP",
+    "version": "v1"
+  },
+  "paths": {
+    "/Admin/TableOfRooms": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Admin/CreateRoom": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Admin"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "ID": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "NumberRoom": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "PriceRoom": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "DescriptionRoom": {
+                    "type": "string"
+                  },
+                  "IsFree": {
+                    "type": "boolean"
+                  },
+                  "UserID": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "User.ID": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "User.UserFirstName": {
+                    "type": "string"
+                  },
+                  "User.UserSecondName": {
+                    "type": "string"
+                  },
+                  "User.UserPhoneNumber": {
+                    "type": "string"
+                  },
+                  "User.Rooms": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Room"
+                    }
+                  },
+                  "stringPriceRoom": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "ID": {
+                  "style": "form"
+                },
+                "NumberRoom": {
+                  "style": "form"
+                },
+                "PriceRoom": {
+                  "style": "form"
+                },
+                "DescriptionRoom": {
+                  "style": "form"
+                },
+                "IsFree": {
+                  "style": "form"
+                },
+                "UserID": {
+                  "style": "form"
+                },
+                "User.ID": {
+                  "style": "form"
+                },
+                "User.UserFirstName": {
+                  "style": "form"
+                },
+                "User.UserSecondName": {
+                  "style": "form"
+                },
+                "User.UserPhoneNumber": {
+                  "style": "form"
+                },
+                "User.Rooms": {
+                  "style": "form"
+                },
+                "stringPriceRoom": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/": {
+      "get": {
+        "tags": [
+          "Home"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/{controller}/{Index}": {
+      "get": {
+        "tags": [
+          "Home"
+        ],
+        "parameters": [
+          {
+            "name": "controller",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "Index",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/User/TableOfBooking": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/User/Booking": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "ID": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "UserFirstName": {
+                    "type": "string"
+                  },
+                  "UserSecondName": {
+                    "type": "string"
+                  },
+                  "UserPhoneNumber": {
+                    "type": "string"
+                  },
+                  "Rooms": {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/components/schemas/Room"
+                    }
+                  },
+                  "id": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "ID": {
+                  "style": "form"
+                },
+                "UserFirstName": {
+                  "style": "form"
+                },
+                "UserSecondName": {
+                  "style": "form"
+                },
+                "UserPhoneNumber": {
+                  "style": "form"
+                },
+                "Rooms": {
+                  "style": "form"
+                },
+                "id": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Room": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "numberRoom": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "priceRoom": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "descriptionRoom": {
+            "type": "string",
+            "nullable": true
+          },
+          "isFree": {
+            "type": "boolean"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "user": {
+            "$ref": "#/components/schemas/User"
+          }
+        },
+        "additionalProperties": false
+      },
+      "User": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userFirstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "userSecondName": {
+            "type": "string",
+            "nullable": true
+          },
+          "userPhoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "rooms": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Room"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Admin"
+    },
+    {
+      "name": "Home"
+    },
+    {
+      "name": "User"
+    }
+  ]
+}
